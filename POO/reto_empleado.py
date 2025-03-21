@@ -1,4 +1,4 @@
-from reto_salud import persona
+from POO.reto_salud import persona
 
 class empleado(persona):
     # atributos
