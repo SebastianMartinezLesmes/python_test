@@ -1,19 +1,20 @@
 import turtle
+import colorsys as cs
 
-def dibujar_rama(longitud, nivel):
-    if nivel > 0:
-        turtle.forward(longitud)
-        turtle.left(30)
-        dibujar_rama(longitud * 0.7, nivel - 1)
-        turtle.right(60)
-        dibujar_rama(longitud * 0.7, nivel - 1)
-        turtle.left(30)
-        turtle.backward(longitud)
+turtle.setup(700, 700)
+turtle.speed(0)
+turtle.tracer(10)
+turtle.width(2)
+turtle.bgcolor("black")
+for j in range(25):
+    for i in range(15):
+        turtle.color(cs.hsv_to_rgb(i / 15, j / 25, 1)) 
+        turtle.right(90)
+        turtle.circle(200 - j * 4, 90)
+        turtle.left(90)
+        turtle.circle(200 - j * 4, 90)
+        turtle.right(180)
+        turtle.circle(50, 24)
 
-turtle.speed('fastest')
-turtle.left(90)
-turtle.up()
-turtle.backward(100)
-turtle.down()
-dibujar_rama(100, 5)
+turtle.hideturtle()
 turtle.done()
