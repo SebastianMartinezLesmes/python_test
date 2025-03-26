@@ -3,6 +3,18 @@
 import pygame
 import random
 import sys
+import subprocess
+
+try:
+    import pygame
+except ImportError:
+    print("Instalando pygame... 🔧")
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pygame"])
+    except Exception as e:
+        print(f"Error al intentar instalar pygame: {e}")
+        sys.exit(1)  
+    import pygame
 
 # Inicializar pygame
 pygame.init()
