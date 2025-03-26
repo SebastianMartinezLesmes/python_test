@@ -33,7 +33,6 @@ def obtener_datos_ubicacion():
         print(f"{clave.capitalize()}: {valor}")
     print("=" * 50)
 
-    # Mostrar mapa interactivo si se obtuvo latitud y longitud válidas
     if ubicacion.latlng:
         mapa = folium.Map(location=ubicacion.latlng, zoom_start=12)
         folium.Marker(
