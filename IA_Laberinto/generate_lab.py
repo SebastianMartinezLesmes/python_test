@@ -1,3 +1,5 @@
+# python generate_lab.py
+
 import random
 
 def generar_laberinto(filas, columnas):
@@ -22,7 +24,6 @@ def generar_laberinto(filas, columnas):
     laberinto[1][2] = ' '
     laberinto[2][2] = ' '
     
-    # Colocar A y B
     laberinto[inicio[0]][inicio[1]] = 'A'
     laberinto[fin[0]][fin[1]] = 'B'
     

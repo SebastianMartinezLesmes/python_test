@@ -1,4 +1,5 @@
 # pip install pillow
+# python answer_lab.py mymaze.txt
 
 import sys
 from PIL import Image, ImageDraw
