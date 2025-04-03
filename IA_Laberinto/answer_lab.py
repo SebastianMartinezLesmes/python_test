@@ -163,7 +163,7 @@ class Maze:
                     fill = (0, 171, 28)
                 # Solution
                 elif solution is not None and show_solution and (i, j) in solution:
-                    fill = (220, 235, 113)
+                    fill = (0, 199, 255)
                 # Explored
                 elif solution is not None and show_explored and (i, j) in self.explored:
                     fill = (212, 97, 85)
