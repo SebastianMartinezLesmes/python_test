@@ -17,9 +17,17 @@ class Circulo(Figura):
 
     def area(self):
         return pi * self.radio ** 2
+    
+class Triangulo(Figura):
+    def __init__(self, altura, base):
+        self.altura = altura 
+        self.base = base 
+
+    def area(self):
+        return (self.base * self.altura) / 2
 
 # Uso de las clases
-figuras = [Cuadrado(4), Circulo(3)]
+figuras = [Cuadrado(4), Circulo(3), Triangulo(8, 10)]
 
 for figura in figuras:
     print(f"Área: {figura.area():.2f}")
