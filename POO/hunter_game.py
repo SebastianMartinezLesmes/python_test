@@ -16,30 +16,23 @@ except ImportError:
         sys.exit(1)  
     import pygame
 
-# Inicializar pygame
 pygame.init()
 
-# Configuraciones de pantalla
 ANCHO, ALTO = 800, 600
 pantalla = pygame.display.set_mode((ANCHO, ALTO))
 pygame.display.set_caption("Caza al Monstruo")
 
-# Colores
 BLANCO = (255, 255, 255)
 ROJO = (255, 0, 0)
 VERDE = (0, 255, 0)
 NEGRO = (0, 0, 0)
 
-# Reloj
 clock = pygame.time.Clock()
 
-# Fuente para el puntaje y el tiempo
 fuente = pygame.font.Font(None, 36)
 
-# Duración del tiempo límite (en segundos)
 TIEMPO_LIMITE = 30  
 
-# 🟦 Clase Personaje (Jugador)
 class Personaje:
     def __init__(self, x, y):
         self.x = x
@@ -80,7 +73,7 @@ class Juego:
         self.jugador = Personaje(ANCHO // 2, ALTO // 2)
         self.monstruo = Monstruo()
         self.puntaje = 0
-        self.tiempo_restante = TIEMPO_LIMITE * 1000  # Tiempo en milisegundos
+        self.tiempo_restante = TIEMPO_LIMITE * 1000 
         self.tiempo_inicial = pygame.time.get_ticks()
 
     def ejecutar(self):
@@ -94,21 +87,17 @@ class Juego:
             teclas = pygame.key.get_pressed()
             self.jugador.mover(teclas)
 
-            # Dibujar elementos
             self.jugador.dibujar()
             self.monstruo.dibujar()
 
-            # Actualizar y mostrar puntaje y tiempo restante
             self.mostrar_puntaje()
             self.mostrar_tiempo()
 
-            # Comprobar colisión
             if self.colision():
                 self.puntaje += 1
                 print(f"¡Capturado! Puntaje: {self.puntaje}")
                 self.monstruo.reposicionar()
 
-            # Verificar si el tiempo se ha agotado
             if self.tiempo_restante <= 0:
                 print("⏰ ¡Tiempo agotado! Juego terminado.")
                 ejecutando = False
@@ -133,7 +122,7 @@ class Juego:
         tiempo_actual = pygame.time.get_ticks()
         self.tiempo_restante = max(0, self.tiempo_restante - (tiempo_actual - self.tiempo_inicial))
         self.tiempo_inicial = tiempo_actual
-        segundos_restantes = self.tiempo_restante // 1000  # Convertir a segundos
+        segundos_restantes = self.tiempo_restante // 1000 
         texto = fuente.render(f"Tiempo: {segundos_restantes}s", True, NEGRO)
         pantalla.blit(texto, (ANCHO - 150, 10))
 

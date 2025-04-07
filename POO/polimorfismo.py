@@ -26,7 +26,6 @@ class Triangulo(Figura):
     def area(self):
         return (self.base * self.altura) / 2
 
-# Uso de las clases
 figuras = [Cuadrado(4), Circulo(3), Triangulo(8, 10)]
 
 for figura in figuras:

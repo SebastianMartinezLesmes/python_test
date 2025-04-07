@@ -38,18 +38,15 @@ class Maze:
         with open(filename) as f:
             contents = f.read()
 
-        # Validate start and goal
         if contents.count("A") != 1:
             raise Exception("Maze must have exactly one start point")
         if contents.count("B") != 1:
             raise Exception("Maze must have exactly one goal")
 
-        # Determine height and width of maze
         contents = contents.splitlines()
         self.height = len(contents)
         self.width = max(len(line) for line in contents)
 
-        # Keep track of walls
         self.walls = []
         for i in range(self.height):
             row = []
@@ -59,7 +56,7 @@ class Maze:
                         self.start = (i, j)
                         row.append(False)
                     elif contents[i][j] == "B":
-                        self.goal = (i, j)  # Fix: Set goal position here
+                        self.goal = (i, j) 
                         row.append(False)
                     elif contents[i][j] == " ":
                         row.append(False)
@@ -71,7 +68,6 @@ class Maze:
 
         self.solution = None
 
-    # Correct the indentation for the print method
     def print(self):
         solution = self.solution[1] if self.solution is not None else None
         print()
@@ -96,7 +92,7 @@ class Maze:
             ("up", (row - 1, col)),
             ("down", (row + 1, col)),
             ("left", (row, col - 1)),
-            ("right", (row, col + 1))  # Fix the action names
+            ("right", (row, col + 1)) 
         ]
 
         result = []
@@ -127,7 +123,7 @@ class Maze:
                     node = node.parent
                 action.reverse()
                 cells.reverse()
-                self.solution = (action, cells)  # Fix the assignment
+                self.solution = (action, cells) 
                 return
 
             self.explored.add(node.state)
@@ -141,7 +137,6 @@ class Maze:
         cell_size = 50
         cell_border = 2
 
-        # Create a blank canvas
         img = Image.new(
             mode="RGBA",
             size=(self.width * cell_size, self.height * cell_size),
@@ -152,22 +147,16 @@ class Maze:
         solution = self.solution[1] if self.solution is not None else None
         for i, row in enumerate(self.walls):
             for j, col in enumerate(row):
-                # walls
                 if col:
                     fill = (40, 40, 40)
-                # Start
                 elif (i, j) == self.start:
                     fill = (255, 0, 0)
-                # Goal
                 elif (i, j) == self.goal:
                     fill = (0, 171, 28)
-                # Solution
                 elif solution is not None and show_solution and (i, j) in solution:
                     fill = (0, 199, 255)
-                # Explored
                 elif solution is not None and show_explored and (i, j) in self.explored:
                     fill = (212, 97, 85)
-                # Empty cell
                 else:
                     fill = (237, 240, 252)
 

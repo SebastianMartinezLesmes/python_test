@@ -1,0 +1,191 @@
+[
+    {
+        "nombre": "Michael Jackson",
+        "edad": "50",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "3"
+    },
+    {
+        "nombre": "Madonna",
+        "edad": "63",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "6"
+    },
+    {
+        "nombre": "Freddie Mercury",
+        "edad": "45",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Rock",
+        "pais_origen": "Tanzania",
+        "numero_de_hijos": "0"
+    },
+    {
+        "nombre": "Whitney Houston",
+        "edad": "48",
+        "estado": "Muerto",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "1"
+    },
+    {
+        "nombre": "Elvis Presley",
+        "edad": "42",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Rock",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "1"
+    },
+    {
+        "nombre": "Aretha Franklin",
+        "edad": "76",
+        "estado": "Muerto",
+        "genero": "Femenino",
+        "genero_musical": "Soul",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "4"
+    },
+    {
+        "nombre": "Prince",
+        "edad": "57",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "1"
+    },
+    {
+        "nombre": "Tina Turner",
+        "edad": "81",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Rock",
+        "pais_origen": "Suiza",
+        "numero_de_hijos": "2"
+    },
+    {
+        "nombre": "David Bowie",
+        "edad": "69",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Rock",
+        "pais_origen": "Reino Unido",
+        "numero_de_hijos": "2"
+    },
+    {
+        "nombre": "Mariah Carey",
+        "edad": "53",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "2"
+    },
+    {
+        "nombre": "Kurt Cobain",
+        "edad": "27",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Grunge",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "1"
+    },
+    {
+        "nombre": "Celine Dion",
+        "edad": "53",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Canadá",
+        "numero_de_hijos": "3"
+    },
+    {
+        "nombre": "Amy Winehouse",
+        "edad": "27",
+        "estado": "Muerto",
+        "genero": "Femenino",
+        "genero_musical": "Soul",
+        "pais_origen": "Reino Unido",
+        "numero_de_hijos": "0"
+    },
+    {
+        "nombre": "Bob Marley",
+        "edad": "36",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Reggae",
+        "pais_origen": "Jamaica",
+        "numero_de_hijos": "11"
+    },
+    {
+        "nombre": "Rihanna",
+        "edad": "35",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Barbados",
+        "numero_de_hijos": "0"
+    },
+    {
+        "nombre": "John Lennon",
+        "edad": "40",
+        "estado": "Muerto",
+        "genero": "Masculino",
+        "genero_musical": "Rock",
+        "pais_origen": "Reino Unido",
+        "numero_de_hijos": "2"
+    },
+    {
+        "nombre": "Beyoncé",
+        "edad": "41",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "3"
+    },
+    {
+        "nombre": "Lady Gaga",
+        "edad": "37",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "0"
+    },
+    {
+        "nombre": "Whitney Houston",
+        "edad": "48",
+        "estado": "Muerto",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "1"
+    },
+    {
+        "nombre": "Selena Quintanilla",
+        "edad": "23",
+        "estado": "Muerto",
+        "genero": "Femenino",
+        "genero_musical": "Tejano",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "0"
+    },
+    {
+        "nombre": "Billie Eilish",
+        "edad": "21",
+        "estado": "Vivo",
+        "genero": "Femenino",
+        "genero_musical": "Pop",
+        "pais_origen": "Estados Unidos",
+        "numero_de_hijos": "0"
+    }
+]

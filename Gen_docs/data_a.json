@@ -1,0 +1,128 @@
+[
+    {
+        "nombre_de_la_marca": "Ford",
+        "caballos_de_fuerza": "300",
+        "pais_de_origen": "Estados Unidos",
+        "año_de_origen": "1903"
+    },
+    {
+        "nombre_de_la_marca": "Chevrolet",
+        "caballos_de_fuerza": "350",
+        "pais_de_origen": "Estados Unidos",
+        "año_de_origen": "1911"
+    },
+    {
+        "nombre_de_la_marca": "Toyota",
+        "caballos_de_fuerza": "200",
+        "pais_de_origen": "Japón",
+        "año_de_origen": "1937"
+    },
+    {
+        "nombre_de_la_marca": "Honda",
+        "caballos_de_fuerza": "250",
+        "pais_de_origen": "Japón",
+        "año_de_origen": "1948"
+    },
+    {
+        "nombre_de_la_marca": "Nissan",
+        "caballos_de_fuerza": "220",
+        "pais_de_origen": "Japón",
+        "año_de_origen": "1933"
+    },
+    {
+        "nombre_de_la_marca": "BMW",
+        "caballos_de_fuerza": "300",
+        "pais_de_origen": "Alemania",
+        "año_de_origen": "1916"
+    },
+    {
+        "nombre_de_la_marca": "Mercedes-Benz",
+        "caballos_de_fuerza": "350",
+        "pais_de_origen": "Alemania",
+        "año_de_origen": "1926"
+    },
+    {
+        "nombre_de_la_marca": "Volkswagen",
+        "caballos_de_fuerza": "200",
+        "pais_de_origen": "Alemania",
+        "año_de_origen": "1937"
+    },
+    {
+        "nombre_de_la_marca": "Audi",
+        "caballos_de_fuerza": "300",
+        "pais_de_origen": "Alemania",
+        "año_de_origen": "1909"
+    },
+    {
+        "nombre_de_la_marca": "Porsche",
+        "caballos_de_fuerza": "400",
+        "pais_de_origen": "Alemania",
+        "año_de_origen": "1931"
+    },
+    {
+        "nombre_de_la_marca": "Ferrari",
+        "caballos_de_fuerza": "500",
+        "pais_de_origen": "Italia",
+        "año_de_origen": "1939"
+    },
+    {
+        "nombre_de_la_marca": "Lamborghini",
+        "caballos_de_fuerza": "600",
+        "pais_de_origen": "Italia",
+        "año_de_origen": "1963"
+    },
+    {
+        "nombre_de_la_marca": "Maserati",
+        "caballos_de_fuerza": "400",
+        "pais_de_origen": "Italia",
+        "año_de_origen": "1914"
+    },
+    {
+        "nombre_de_la_marca": "Jaguar",
+        "caballos_de_fuerza": "300",
+        "pais_de_origen": "Reino Unido",
+        "año_de_origen": "1935"
+    },
+    {
+        "nombre_de_la_marca": "Land Rover",
+        "caballos_de_fuerza": "250",
+        "pais_de_origen": "Reino Unido",
+        "año_de_origen": "1948"
+    },
+    {
+        "nombre_de_la_marca": "Volvo",
+        "caballos_de_fuerza": "200",
+        "pais_de_origen": "Suecia",
+        "año_de_origen": "1927"
+    },
+    {
+        "nombre_de_la_marca": "Subaru",
+        "caballos_de_fuerza": "220",
+        "pais_de_origen": "Japón",
+        "año_de_origen": "1953"
+    },
+    {
+        "nombre_de_la_marca": "Mazda",
+        "caballos_de_fuerza": "200",
+        "pais_de_origen": "Japón",
+        "año_de_origen": "1920"
+    },
+    {
+        "nombre_de_la_marca": "Hyundai",
+        "caballos_de_fuerza": "250",
+        "pais_de_origen": "Corea del Sur",
+        "año_de_origen": "1967"
+    },
+    {
+        "nombre_de_la_marca": "Kia",
+        "caballos_de_fuerza": "200",
+        "pais_de_origen": "Corea del Sur",
+        "año_de_origen": "1944"
+    },
+    {
+        "nombre_de_la_marca": "Chevrolet",
+        "caballos_de_fuerza": "350",
+        "pais_de_origen": "Estados Unidos",
+        "año_de_origen": "1911"
+    }
+]

@@ -7,7 +7,6 @@ def generar_laberinto(filas, columnas):
     inicio = (1, 1)
     fin = (filas - 2, columnas - 2)
     
-    # Crear caminos
     def hacer_camino(x, y):
         laberinto[x][y] = ' '
         direcciones = [(0, 2), (2, 0), (0, -2), (-2, 0)]

@@ -1,0 +1,212 @@
+[
+    {
+        "nombre": "Led Zeppelin",
+        "genero_musical": "Rock",
+        "año_creacion": "1968",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Robert Plant",
+        "guitarrista": "Jimmy Page",
+        "baterista": "John Bonham",
+        "numero_de_albunes": "9"
+    },
+    {
+        "nombre": "The Beatles",
+        "genero_musical": "Rock",
+        "año_creacion": "1960",
+        "pais_origen": "Reino Unido",
+        "bocalista": "John Lennon",
+        "guitarrista": "George Harrison",
+        "baterista": "Ringo Starr",
+        "numero_de_albunes": "13"
+    },
+    {
+        "nombre": "Queen",
+        "genero_musical": "Rock",
+        "año_creacion": "1970",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Freddie Mercury",
+        "guitarrista": "Brian May",
+        "baterista": "Roger Taylor",
+        "numero_de_albunes": "15"
+    },
+    {
+        "nombre": "AC/DC",
+        "genero_musical": "Rock",
+        "año_creacion": "1973",
+        "pais_origen": "Australia",
+        "bocalista": "Bon Scott",
+        "guitarrista": "Angus Young",
+        "baterista": "Phil Rudd",
+        "numero_de_albunes": "17"
+    },
+    {
+        "nombre": "The Rolling Stones",
+        "genero_musical": "Rock",
+        "año_creacion": "1962",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Mick Jagger",
+        "guitarrista": "Keith Richards",
+        "baterista": "Charlie Watts",
+        "numero_de_albunes": "30"
+    },
+    {
+        "nombre": "Nirvana",
+        "genero_musical": "Grunge",
+        "año_creacion": "1987",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Kurt Cobain",
+        "guitarrista": "Krist Novoselic",
+        "baterista": "Dave Grohl",
+        "numero_de_albunes": "3"
+    },
+    {
+        "nombre": "Pink Floyd",
+        "genero_musical": "Rock",
+        "año_creacion": "1965",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Roger Waters",
+        "guitarrista": "David Gilmour",
+        "baterista": "Nick Mason",
+        "numero_de_albunes": "15"
+    },
+    {
+        "nombre": "Guns N' Roses",
+        "genero_musical": "Rock",
+        "año_creacion": "1985",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Axl Rose",
+        "guitarrista": "Slash",
+        "baterista": "Steven Adler",
+        "numero_de_albunes": "6"
+    },
+    {
+        "nombre": "Metallica",
+        "genero_musical": "Heavy Metal",
+        "año_creacion": "1981",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "James Hetfield",
+        "guitarrista": "Kirk Hammett",
+        "baterista": "Lars Ulrich",
+        "numero_de_albunes": "10"
+    },
+    {
+        "nombre": "Red Hot Chili Peppers",
+        "genero_musical": "Funk Rock",
+        "año_creacion": "1983",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Anthony Kiedis",
+        "guitarrista": "John Frusciante",
+        "baterista": "Chad Smith",
+        "numero_de_albunes": "11"
+    },
+    {
+        "nombre": "The Who",
+        "genero_musical": "Rock",
+        "año_creacion": "1964",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Roger Daltrey",
+        "guitarrista": "Pete Townshend",
+        "baterista": "Keith Moon",
+        "numero_de_albunes": "12"
+    },
+    {
+        "nombre": "Aerosmith",
+        "genero_musical": "Rock",
+        "año_creacion": "1970",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Steven Tyler",
+        "guitarrista": "Joe Perry",
+        "baterista": "Joey Kramer",
+        "numero_de_albunes": "15"
+    },
+    {
+        "nombre": "Bon Jovi",
+        "genero_musical": "Rock",
+        "año_creacion": "1983",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Jon Bon Jovi",
+        "guitarrista": "Richie Sambora",
+        "baterista": "Tico Torres",
+        "numero_de_albunes": "15"
+    },
+    {
+        "nombre": "Foo Fighters",
+        "genero_musical": "Rock",
+        "año_creacion": "1994",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Dave Grohl",
+        "guitarrista": "Chris Shiflett",
+        "baterista": "Taylor Hawkins",
+        "numero_de_albunes": "10"
+    },
+    {
+        "nombre": "Oasis",
+        "genero_musical": "Rock",
+        "año_creacion": "1991",
+        "pais_origen": "Reino Unido",
+        "bocalista": "Liam Gallagher",
+        "guitarrista": "Noel Gallagher",
+        "baterista": "Alan White",
+        "numero_de_albunes": "7"
+    },
+    {
+        "nombre": "Linkin Park",
+        "genero_musical": "Nu Metal",
+        "año_creacion": "1996",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Chester Bennington",
+        "guitarrista": "Brad Delson",
+        "baterista": "Rob Bourdon",
+        "numero_de_albunes": "7"
+    },
+    {
+        "nombre": "The Doors",
+        "genero_musical": "Rock",
+        "año_creacion": "1965",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Jim Morrison",
+        "guitarrista": "Robby Krieger",
+        "baterista": "John Densmore",
+        "numero_de_albunes": "8"
+    },
+    {
+        "nombre": "Rage Against the Machine",
+        "genero_musical": "Rap Metal",
+        "año_creacion": "1991",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Zack de la Rocha",
+        "guitarrista": "Tom Morello",
+        "baterista": "Brad Wilk",
+        "numero_de_albunes": "4"
+    },
+    {
+        "nombre": "Green Day",
+        "genero_musical": "Punk Rock",
+        "año_creacion": "1986",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Billie Joe Armstrong",
+        "guitarrista": "Mike Dirnt",
+        "baterista": "Tre Cool",
+        "numero_de_albunes": "13"
+    },
+    {
+        "nombre": "Kiss",
+        "genero_musical": "Rock",
+        "año_creacion": "1973",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Paul Stanley",
+        "guitarrista": "Gene Simmons",
+        "baterista": "Peter Criss",
+        "numero_de_albunes": "20"
+    },
+    {
+        "nombre": "System of a Down",
+        "genero_musical": "Metal Alternativo",
+        "año_creacion": "1994",
+        "pais_origen": "Estados Unidos",
+        "bocalista": "Serj Tankian",
+        "guitarrista": "Daron Malakian",
+        "baterista": "John Dolmayan",
+        "numero_de_albunes": "5"
+    }
+]  

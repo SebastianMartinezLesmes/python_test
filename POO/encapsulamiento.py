@@ -1,7 +1,7 @@
 class CuentaBancaria:
     def __init__(self, titular, saldo):
         self.titular = titular
-        self.__saldo = saldo  # Atributo privado
+        self.__saldo = saldo 
 
     def depositar(self, monto):
         if monto > 0:

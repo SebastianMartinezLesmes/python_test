@@ -41,5 +41,4 @@ while True:
     else:
         print("⚠️ Respuesta no válida. Responde con 'si' o 'no'.")
 
-# Mostrar resultados
 Producto.mostrar_productos()
