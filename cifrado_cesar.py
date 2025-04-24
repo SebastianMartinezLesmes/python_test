@@ -21,3 +21,8 @@ texto_descifrado = cifrado_cesar(texto_cifrado, desplazamiento, modo='descifrar'
 print("Texto original:", texto)
 print("Texto cifrado:", texto_cifrado)
 print("Texto descifrado:", texto_descifrado)
+
+'''
+Cifrado César
+El cifrado César es un cifrado por sustitución donde cada letra del texto es desplazada un número fijo de posiciones en el alfabeto. Por ejemplo, si el desplazamiento es 3, la letra "A" se convierte en "D", la "B" en "E", y así sucesivamente.
+'''
