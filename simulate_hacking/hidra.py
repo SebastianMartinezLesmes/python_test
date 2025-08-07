@@ -1,36 +1,73 @@
 from vpython import *
+import math
 
-# Configuración inicial de la escena
-scene.title = "Cubo flotante 3D con botón"
+# Configuración de la escena
+scene.title = "Estructura cúbica flotante"
 scene.background = vector(0.1, 0.1, 0.1)
-scene.width = 800
+scene.width = 900
 scene.height = 600
 
-# Tamaño del cubo
-size = 2
+# Parámetros
+cubo_size = 1
+espaciado = cubo_size * 1.5
+cubos = []
+direcciones = []
 
-# Crear cubo semi-transparente
-cubo = box(
-    pos=vector(0, 0, 0),
-    size=vector(size, size, size),
-    color=vector(0.2, 0.7, 1),  # Azul claro
-    opacity=0.4
-)
+# Función para crear un cubo
+def crear_cubo(pos):
+    cubo = box(
+        pos=pos,
+        size=vector(cubo_size, cubo_size, cubo_size),
+        color=vector(0.2, 0.7, 1),
+        opacity=0.4
+    )
+    cubos.append(cubo)
+    direcciones.append(1)
 
-# Función para cambiar el color del cubo
+# Función para colapsar los cubos
 def colapsar():
-    cubo.color = color.red
-    cubo.opacity = 0.4  # Mantener transparencia
+    for c in cubos:
+        c.color = color.red
+        c.opacity = 0.4
 
-# Botón en la escena
+# Función para reorganizar los cubos en forma cúbica
+def reorganizar_cubos():
+    total = len(cubos)
+    
+    # Calcular la raíz cúbica aproximada
+    side = math.ceil(total ** (1/3))  # Número de cubos por eje
+
+    index = 0
+    offset = (side - 1) * espaciado / 2  # Centrado
+
+    for z in range(side):
+        for y in range(side):
+            for x in range(side):
+                if index >= total:
+                    return
+                cubos[index].pos = vector(
+                    x * espaciado - offset,
+                    y * espaciado - offset,
+                    z * espaciado - offset
+                )
+                index += 1
+
+# Función para agregar un nuevo cubo
+def agregar_cubo():
+    crear_cubo(vector(0, 0, 0))  # Posición inicial temporal
+    reorganizar_cubos()
+
+# Crear el primer cubo
+crear_cubo(vector(0, 0, 0))
+
+# Botones
 button(text="Colapsar", bind=colapsar)
+button(text="+ cube", bind=agregar_cubo)
 
-# Animación flotante y rotación
-direction = 1
-
+# Animación flotante
 while True:
     rate(60)
-    cubo.pos.y += 0.01 * direction
-    if cubo.pos.y > 1 or cubo.pos.y < -1:
-        direction *= -1
-    cubo.rotate(angle=0.03, axis=vector(0, 1, 0))
+    for i, cubo in enumerate(cubos):
+        cubo.pos.y += 0.002 * direcciones[i]
+        if cubo.pos.y > cubo.pos.y + 0.5 or cubo.pos.y < cubo.pos.y - 0.5:
+            direcciones[i] *= -1
